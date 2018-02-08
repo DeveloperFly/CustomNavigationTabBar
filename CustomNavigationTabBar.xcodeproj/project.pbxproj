@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C143C66202C4BB500306F7A /* NavBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C65202C4BB500306F7A /* NavBarTableViewController.swift */; };
+		4C143C6B202C526A00306F7A /* StoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C6A202C526A00306F7A /* StoryboardViewController.swift */; };
+		4C143C6D202C52CD00306F7A /* StoryboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C6C202C52CD00306F7A /* StoryboardTableViewCell.swift */; };
+		4C143C6F202C54DE00306F7A /* CustomStoryboradViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C6E202C54DE00306F7A /* CustomStoryboradViewController.swift */; };
+		4C143C71202C575B00306F7A /* StoryboardNavigationBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C143C70202C575B00306F7A /* StoryboardNavigationBar.storyboard */; };
+		4C143C74202C5D7200306F7A /* MultipleNavBarButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C73202C5D7200306F7A /* MultipleNavBarButtonViewController.swift */; };
+		4C143C7A202C663800306F7A /* ProgrammaticallyNavBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C143C79202C663800306F7A /* ProgrammaticallyNavBar.storyboard */; };
+		4C143C7C202C67BE00306F7A /* NavBarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C7B202C67BE00306F7A /* NavBarCodeViewController.swift */; };
+		4C143C81202C690600306F7A /* NavigationPromtSBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C80202C690600306F7A /* NavigationPromtSBViewController.swift */; };
 		4CB3FA08202C119200593222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3FA07202C119200593222 /* AppDelegate.swift */; };
-		4CB3FA0A202C119200593222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3FA09202C119200593222 /* ViewController.swift */; };
 		4CB3FA0D202C119200593222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3FA0B202C119200593222 /* Main.storyboard */; };
 		4CB3FA0F202C119200593222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3FA0E202C119200593222 /* Assets.xcassets */; };
 		4CB3FA12202C119200593222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3FA10202C119200593222 /* LaunchScreen.storyboard */; };
@@ -34,9 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C143C65202C4BB500306F7A /* NavBarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarTableViewController.swift; sourceTree = "<group>"; };
+		4C143C6A202C526A00306F7A /* StoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardViewController.swift; sourceTree = "<group>"; };
+		4C143C6C202C52CD00306F7A /* StoryboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardTableViewCell.swift; sourceTree = "<group>"; };
+		4C143C6E202C54DE00306F7A /* CustomStoryboradViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStoryboradViewController.swift; sourceTree = "<group>"; };
+		4C143C70202C575B00306F7A /* StoryboardNavigationBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardNavigationBar.storyboard; sourceTree = "<group>"; };
+		4C143C73202C5D7200306F7A /* MultipleNavBarButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleNavBarButtonViewController.swift; sourceTree = "<group>"; };
+		4C143C79202C663800306F7A /* ProgrammaticallyNavBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProgrammaticallyNavBar.storyboard; sourceTree = "<group>"; };
+		4C143C7B202C67BE00306F7A /* NavBarCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarCodeViewController.swift; sourceTree = "<group>"; };
+		4C143C80202C690600306F7A /* NavigationPromtSBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPromtSBViewController.swift; sourceTree = "<group>"; };
 		4CB3FA04202C119200593222 /* CustomNavigationTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavigationTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB3FA07202C119200593222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CB3FA09202C119200593222 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CB3FA0C202C119200593222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CB3FA0E202C119200593222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CB3FA11202C119200593222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +90,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C143C67202C514C00306F7A /* NavigationBarTypes */ = {
+			isa = PBXGroup;
+			children = (
+				4C143C76202C65AE00306F7A /* NavigationBarWithCode */,
+				4C143C75202C659000306F7A /* NavigationBarWithStoryboard */,
+			);
+			path = NavigationBarTypes;
+			sourceTree = "<group>";
+		};
+		4C143C72202C598C00306F7A /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3FA0B202C119200593222 /* Main.storyboard */,
+				4C143C70202C575B00306F7A /* StoryboardNavigationBar.storyboard */,
+				4C143C79202C663800306F7A /* ProgrammaticallyNavBar.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		4C143C75202C659000306F7A /* NavigationBarWithStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				4C143C7F202C68B800306F7A /* Navigation Promt */,
+				4C143C7E202C68A000306F7A /* MultipleNavBarButton */,
+				4C143C7D202C687B00306F7A /* CustomStoryboradNavBar */,
+			);
+			path = NavigationBarWithStoryboard;
+			sourceTree = "<group>";
+		};
+		4C143C76202C65AE00306F7A /* NavigationBarWithCode */ = {
+			isa = PBXGroup;
+			children = (
+				4C143C7B202C67BE00306F7A /* NavBarCodeViewController.swift */,
+			);
+			path = NavigationBarWithCode;
+			sourceTree = "<group>";
+		};
+		4C143C7D202C687B00306F7A /* CustomStoryboradNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				4C143C6E202C54DE00306F7A /* CustomStoryboradViewController.swift */,
+			);
+			path = CustomStoryboradNavBar;
+			sourceTree = "<group>";
+		};
+		4C143C7E202C68A000306F7A /* MultipleNavBarButton */ = {
+			isa = PBXGroup;
+			children = (
+				4C143C73202C5D7200306F7A /* MultipleNavBarButtonViewController.swift */,
+			);
+			path = MultipleNavBarButton;
+			sourceTree = "<group>";
+		};
+		4C143C7F202C68B800306F7A /* Navigation Promt */ = {
+			isa = PBXGroup;
+			children = (
+				4C143C80202C690600306F7A /* NavigationPromtSBViewController.swift */,
+			);
+			path = "Navigation Promt";
+			sourceTree = "<group>";
+		};
 		4CB3F9FB202C119200593222 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +174,15 @@
 		4CB3FA06202C119200593222 /* CustomNavigationTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				4C143C72202C598C00306F7A /* StoryBoard */,
+				4C143C67202C514C00306F7A /* NavigationBarTypes */,
 				4CB3FA07202C119200593222 /* AppDelegate.swift */,
-				4CB3FA09202C119200593222 /* ViewController.swift */,
-				4CB3FA0B202C119200593222 /* Main.storyboard */,
 				4CB3FA0E202C119200593222 /* Assets.xcassets */,
 				4CB3FA10202C119200593222 /* LaunchScreen.storyboard */,
 				4CB3FA13202C119200593222 /* Info.plist */,
+				4C143C65202C4BB500306F7A /* NavBarTableViewController.swift */,
+				4C143C6A202C526A00306F7A /* StoryboardViewController.swift */,
+				4C143C6C202C52CD00306F7A /* StoryboardTableViewCell.swift */,
 			);
 			path = CustomNavigationTabBar;
 			sourceTree = "<group>";
@@ -232,9 +312,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C143C7A202C663800306F7A /* ProgrammaticallyNavBar.storyboard in Resources */,
 				4CB3FA12202C119200593222 /* LaunchScreen.storyboard in Resources */,
 				4CB3FA0F202C119200593222 /* Assets.xcassets in Resources */,
 				4CB3FA0D202C119200593222 /* Main.storyboard in Resources */,
+				4C143C71202C575B00306F7A /* StoryboardNavigationBar.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +341,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CB3FA0A202C119200593222 /* ViewController.swift in Sources */,
+				4C143C6F202C54DE00306F7A /* CustomStoryboradViewController.swift in Sources */,
+				4C143C7C202C67BE00306F7A /* NavBarCodeViewController.swift in Sources */,
+				4C143C6D202C52CD00306F7A /* StoryboardTableViewCell.swift in Sources */,
 				4CB3FA08202C119200593222 /* AppDelegate.swift in Sources */,
+				4C143C6B202C526A00306F7A /* StoryboardViewController.swift in Sources */,
+				4C143C74202C5D7200306F7A /* MultipleNavBarButtonViewController.swift in Sources */,
+				4C143C81202C690600306F7A /* NavigationPromtSBViewController.swift in Sources */,
+				4C143C66202C4BB500306F7A /* NavBarTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

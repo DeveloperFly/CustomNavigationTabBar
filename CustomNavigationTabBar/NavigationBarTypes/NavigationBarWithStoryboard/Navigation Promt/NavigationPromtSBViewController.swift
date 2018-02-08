@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NavigationPromtSBViewController.swift
 //  CustomNavigationTabBar
 //
 //  Created by Aman Gupta on 08/02/18.
@@ -8,18 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class NavigationPromtSBViewController: UIViewController {
+    //MARK: - View life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    //MARK: - Configure View
+    func configureNavigationBar() {
+        
     }
 
-
 }
-
