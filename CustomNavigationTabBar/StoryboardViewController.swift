@@ -10,23 +10,24 @@ import UIKit
 
 class StoryboardViewController: UIViewController {
 
+    //MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!
+    
+    //MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }
 
+//MARK: -
 extension StoryboardViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 4
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -46,6 +47,14 @@ extension StoryboardViewController: UITableViewDelegate {
         case 1:
             let storboard = UIStoryboard.init(name: "StoryboardNavigationBar", bundle: nil)
             let viewController = storboard.instantiateViewController(withIdentifier: "MultipleNavBarButtonViewController") as! MultipleNavBarButtonViewController
+            self.navigationController?.pushViewController(viewController, animated: true)
+        case 2:
+            let storboard = UIStoryboard.init(name: "StoryboardNavigationBar", bundle: nil)
+            let viewController = storboard.instantiateViewController(withIdentifier: "CustomNavButtonStoryBoard") as! CustomNavButtonStoryBoard
+            self.navigationController?.pushViewController(viewController, animated: true)
+        case 3:
+            let storboard = UIStoryboard.init(name: "StoryboardNavigationBar", bundle: nil)
+            let viewController = storboard.instantiateViewController(withIdentifier: "NavigationPromtSBViewController") as! NavigationPromtSBViewController
             self.navigationController?.pushViewController(viewController, animated: true)
         default:
             break

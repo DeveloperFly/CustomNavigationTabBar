@@ -13,7 +13,7 @@
         <!--Nav Bar Code View Controller-->
         <scene sceneID="96g-p0-bQ8">
             <objects>
-                <viewController id="p4F-Yk-cWD" customClass="NavBarCodeViewController" customModule="CustomNavigationTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavBarCodeViewController" id="p4F-Yk-cWD" customClass="NavBarCodeViewController" customModule="CustomNavigationTabBar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fOf-6A-BF9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

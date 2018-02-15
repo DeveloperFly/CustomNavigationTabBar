@@ -22,6 +22,7 @@
 		4CB3FA12202C119200593222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3FA10202C119200593222 /* LaunchScreen.storyboard */; };
 		4CB3FA1D202C119200593222 /* CustomNavigationTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3FA1C202C119200593222 /* CustomNavigationTabBarTests.swift */; };
 		4CB3FA28202C119200593222 /* CustomNavigationTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3FA27202C119200593222 /* CustomNavigationTabBarUITests.swift */; };
+		4CC3FFC2203465F30075D287 /* CustomNavButtonStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3FFC1203465F30075D287 /* CustomNavButtonStoryBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		4CB3FA23202C119200593222 /* CustomNavigationTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavigationTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB3FA27202C119200593222 /* CustomNavigationTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationTabBarUITests.swift; sourceTree = "<group>"; };
 		4CB3FA29202C119200593222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC3FFC1203465F30075D287 /* CustomNavButtonStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavButtonStoryBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		4C143C75202C659000306F7A /* NavigationBarWithStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				4CC3FFC0203465C90075D287 /* CustonNavButton */,
 				4C143C7F202C68B800306F7A /* Navigation Promt */,
 				4C143C7E202C68A000306F7A /* MultipleNavBarButton */,
 				4C143C7D202C687B00306F7A /* CustomStoryboradNavBar */,
@@ -203,6 +206,14 @@
 				4CB3FA29202C119200593222 /* Info.plist */,
 			);
 			path = CustomNavigationTabBarUITests;
+			sourceTree = "<group>";
+		};
+		4CC3FFC0203465C90075D287 /* CustonNavButton */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3FFC1203465F30075D287 /* CustomNavButtonStoryBoard.swift */,
+			);
+			path = CustonNavButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +359,7 @@
 				4C143C6B202C526A00306F7A /* StoryboardViewController.swift in Sources */,
 				4C143C74202C5D7200306F7A /* MultipleNavBarButtonViewController.swift in Sources */,
 				4C143C81202C690600306F7A /* NavigationPromtSBViewController.swift in Sources */,
+				4CC3FFC2203465F30075D287 /* CustomNavButtonStoryBoard.swift in Sources */,
 				4C143C66202C4BB500306F7A /* NavBarTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

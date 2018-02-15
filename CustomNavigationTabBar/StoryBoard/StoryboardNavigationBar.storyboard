@@ -22,13 +22,13 @@
                         <viewLayoutGuide key="safeArea" id="OPy-r0-gYK"/>
                     </view>
                     <navigationItem key="navigationItem" title="NavigationTabBar" id="PUK-lv-rlL">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="backArrow" id="b6a-E5-cFP">
+                        <barButtonItem key="leftBarButtonItem" image="backArrow" id="b6a-E5-cFP">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="tapLeftBarButton:" destination="Inj-0U-9Or" id="F6q-ll-Fbe"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="notification" id="8Xc-nR-hB8">
+                        <barButtonItem key="rightBarButtonItem" image="notification" id="8Xc-nR-hB8">
                             <color key="tintColor" red="0.93932330610000003" green="0.38194861600000002" blue="0.25270261910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="tapRightBarButton:" destination="Inj-0U-9Or" id="pgb-G4-qni"/>
@@ -65,20 +65,20 @@
                             </barButtonItem>
                         </leftBarButtonItems>
                         <rightBarButtonItems>
-                            <barButtonItem title="Item" style="plain" id="XhC-WG-GSf">
+                            <barButtonItem title="Item" springLoaded="YES" style="plain" id="XhC-WG-GSf">
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="tapRightBarFirstButton:" destination="LeP-bK-ngI" id="845-vG-Sot"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="Item" image="notification" id="CxS-iN-cgs">
+                            <barButtonItem image="notification" id="CxS-iN-cgs">
                                 <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="1"/>
                                 <color key="tintColor" red="0.2784313725" green="0.90588235289999997" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="tapRightBarSecondButton:" destination="LeP-bK-ngI" id="tZH-zl-aZk"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="Item" image="notification" id="eFm-Pp-BR7">
+                            <barButtonItem image="notification" id="eFm-Pp-BR7">
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="tapRightBarThirdButton:" destination="LeP-bK-ngI" id="0oU-5q-GW2"/>
@@ -91,6 +91,188 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NTA-sc-Qwa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2076" y="-215"/>
+        </scene>
+        <!--Nav Bar-->
+        <scene sceneID="xDY-p6-9hU">
+            <objects>
+                <viewController storyboardIdentifier="CustomNavButtonStoryBoard" id="vrx-5w-sXH" customClass="CustomNavButtonStoryBoard" customModule="CustomNavigationTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <textField key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="C4h-Gj-9Ct">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <navigationItem key="navigationItem" title="Nav Bar" id="nfw-T1-ro0">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="a1C-nL-0Qy">
+                            <view key="customView" contentMode="scaleToFill" id="x3w-zD-z4Z">
+                                <rect key="frame" x="16" y="5.5" width="30" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnh-Um-oSO">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="33"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title=" " image="backArrow"/>
+                                        <connections>
+                                            <action selector="tapLeftFirstButton:" destination="vrx-5w-sXH" eventType="touchUpInside" id="dXG-jr-CHz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="cnh-Um-oSO" secondAttribute="trailing" id="8LP-BB-qUp"/>
+                                    <constraint firstAttribute="bottom" secondItem="cnh-Um-oSO" secondAttribute="bottom" id="9Hb-Z0-dkG"/>
+                                    <constraint firstItem="cnh-Um-oSO" firstAttribute="top" secondItem="x3w-zD-z4Z" secondAttribute="top" id="jMk-9W-CXg"/>
+                                    <constraint firstItem="cnh-Um-oSO" firstAttribute="leading" secondItem="x3w-zD-z4Z" secondAttribute="leading" id="uJf-z9-2ao"/>
+                                </constraints>
+                            </view>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Item" style="plain" id="gFC-aP-Ix5">
+                                <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                                <view key="customView" contentMode="scaleToFill" id="0Ry-tG-17F">
+                                    <rect key="frame" x="329" y="2" width="30" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peJ-2e-ckd">
+                                            <rect key="frame" x="0.0" y="0.0" width="30" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="diX-mE-NPk"/>
+                                            </constraints>
+                                            <state key="normal" title=" " image="notification"/>
+                                            <connections>
+                                                <action selector="tapRightFirstButton:" destination="vrx-5w-sXH" eventType="touchUpInside" id="t58-1u-qBk"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="peJ-2e-ckd" firstAttribute="top" secondItem="0Ry-tG-17F" secondAttribute="top" id="8W5-Sc-s3X"/>
+                                        <constraint firstAttribute="trailing" secondItem="peJ-2e-ckd" secondAttribute="trailing" id="Gws-9v-MPb"/>
+                                        <constraint firstItem="peJ-2e-ckd" firstAttribute="leading" secondItem="0Ry-tG-17F" secondAttribute="leading" id="LlV-Bz-XsE"/>
+                                        <constraint firstAttribute="bottom" secondItem="peJ-2e-ckd" secondAttribute="bottom" id="bFi-R7-iGc"/>
+                                    </constraints>
+                                </view>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="X7v-yN-t1O">
+                                <view key="customView" contentMode="scaleToFill" id="dgE-IQ-aVM">
+                                    <rect key="frame" x="291" y="2" width="30" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNh-sj-zjA">
+                                            <rect key="frame" x="0.0" y="0.0" width="30" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="Tc6-ed-NCb"/>
+                                            </constraints>
+                                            <state key="normal" title=" " image="notification"/>
+                                            <connections>
+                                                <action selector="tapRightSecondButton:" destination="vrx-5w-sXH" eventType="touchUpInside" id="WrQ-Oa-kgb"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="nNh-sj-zjA" firstAttribute="leading" secondItem="dgE-IQ-aVM" secondAttribute="leading" id="WsY-QO-Wn6"/>
+                                        <constraint firstAttribute="trailing" secondItem="nNh-sj-zjA" secondAttribute="trailing" id="ZFv-KU-TCt"/>
+                                        <constraint firstAttribute="bottom" secondItem="nNh-sj-zjA" secondAttribute="bottom" id="gz6-p2-7nZ"/>
+                                        <constraint firstItem="nNh-sj-zjA" firstAttribute="top" secondItem="dgE-IQ-aVM" secondAttribute="top" id="nEc-c7-Cfp"/>
+                                    </constraints>
+                                </view>
+                            </barButtonItem>
+                            <barButtonItem title="Item" style="plain" id="5e6-hA-fgx">
+                                <view key="customView" contentMode="scaleToFill" id="N91-uz-AdF">
+                                    <rect key="frame" x="253" y="2" width="30" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJf-wD-oh0">
+                                            <rect key="frame" x="0.0" y="0.0" width="30" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="qUx-0h-Wy4"/>
+                                            </constraints>
+                                            <state key="normal" image="notification"/>
+                                            <connections>
+                                                <action selector="tapRightThirdButton:" destination="vrx-5w-sXH" eventType="touchUpInside" id="NZG-Ix-B23"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="vJf-wD-oh0" secondAttribute="trailing" id="5MB-Wv-2pg"/>
+                                        <constraint firstItem="vJf-wD-oh0" firstAttribute="leading" secondItem="N91-uz-AdF" secondAttribute="leading" id="QsP-cr-1yE"/>
+                                        <constraint firstItem="vJf-wD-oh0" firstAttribute="top" secondItem="N91-uz-AdF" secondAttribute="top" id="aVf-3k-Quf"/>
+                                        <constraint firstAttribute="bottom" secondItem="vJf-wD-oh0" secondAttribute="bottom" id="vwn-wU-DyE"/>
+                                    </constraints>
+                                </view>
+                            </barButtonItem>
+                            <barButtonItem id="iL7-O3-ZAC"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pfl-4X-MMZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2833" y="-215"/>
+        </scene>
+        <!--Nav Bar-->
+        <scene sceneID="Rrq-bb-beU">
+            <objects>
+                <viewController storyboardIdentifier="NavigationPromtSBViewController" id="baD-gr-NTN" customClass="NavigationPromtSBViewController" customModule="CustomNavigationTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="amH-PV-nvd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="EM1-hF-qqw"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Nav Bar" prompt="Navigation prompt" id="pm2-F8-GRa">
+                        <barButtonItem key="leftBarButtonItem" image="backArrow" id="Nc7-cm-U3Y">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="tapLeftFirstButton:" destination="baD-gr-NTN" id="ND8-cb-TVP"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="notification" id="JhS-Vo-T47">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="tapRightFirstButton:" destination="baD-gr-NTN" id="409-VM-iol"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Gr-dx-k2H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3580" y="-215"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KHm-aC-nh0">
+            <objects>
+                <viewController id="Hdv-US-nfr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bie-NR-30U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="qZS-kh-aXA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="H01-Il-3XG">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="backArrow" id="cjJ-P7-qkA"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="6eK-vn-8bF">
+                            <rect key="frame" x="66" y="7" width="243" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="First"/>
+                                <segment title="Second"/>
+                                <segment title="Third"/>
+                                <segment title="Fourth"/>
+                            </segments>
+                        </segmentedControl>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="notification" id="fcZ-t0-S8h"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mr1-0t-sEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4289" y="-215"/>
         </scene>
     </scenes>
     <resources>
