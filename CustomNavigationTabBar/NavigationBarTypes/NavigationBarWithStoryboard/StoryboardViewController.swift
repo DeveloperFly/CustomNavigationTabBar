@@ -27,11 +27,12 @@ class StoryboardViewController: UIViewController {
 //MARK: -
 extension StoryboardViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "StoryboardTableViewCell", for: indexPath) as! StoryboardTableViewCell
+        cell.configureCell(indexPath: indexPath)
         return cell
     }
 
@@ -55,6 +56,10 @@ extension StoryboardViewController: UITableViewDelegate {
         case 3:
             let storboard = UIStoryboard.init(name: "StoryboardNavigationBar", bundle: nil)
             let viewController = storboard.instantiateViewController(withIdentifier: "NavigationPromtSBViewController") as! NavigationPromtSBViewController
+            self.navigationController?.pushViewController(viewController, animated: true)
+        case 4:
+            let storboard = UIStoryboard.init(name: "StoryboardNavigationBar", bundle: nil)
+            let viewController = storboard.instantiateViewController(withIdentifier: "CustomTitleViewController") as! CustomTitleViewController
             self.navigationController?.pushViewController(viewController, animated: true)
         default:
             break
