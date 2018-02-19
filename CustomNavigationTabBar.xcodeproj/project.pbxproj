@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C143C66202C4BB500306F7A /* NavBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C65202C4BB500306F7A /* NavBarTableViewController.swift */; };
 		4C143C6B202C526A00306F7A /* StoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C6A202C526A00306F7A /* StoryboardViewController.swift */; };
 		4C143C6D202C52CD00306F7A /* StoryboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C6C202C52CD00306F7A /* StoryboardTableViewCell.swift */; };
 		4C143C6F202C54DE00306F7A /* CustomStoryboradViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C6E202C54DE00306F7A /* CustomStoryboradViewController.swift */; };
 		4C143C71202C575B00306F7A /* StoryboardNavigationBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C143C70202C575B00306F7A /* StoryboardNavigationBar.storyboard */; };
 		4C143C74202C5D7200306F7A /* MultipleNavBarButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C73202C5D7200306F7A /* MultipleNavBarButtonViewController.swift */; };
 		4C143C7A202C663800306F7A /* ProgrammaticallyNavBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C143C79202C663800306F7A /* ProgrammaticallyNavBar.storyboard */; };
-		4C143C7C202C67BE00306F7A /* NavBarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C7B202C67BE00306F7A /* NavBarCodeViewController.swift */; };
 		4C143C81202C690600306F7A /* NavigationPromtSBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143C80202C690600306F7A /* NavigationPromtSBViewController.swift */; };
 		4C3533CB203AA70300747E8C /* CustomTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3533CA203AA70300747E8C /* CustomTitleViewController.swift */; };
+		4C3533D2203AB42C00747E8C /* CustomRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3533D1203AB42C00747E8C /* CustomRightViewController.swift */; };
+		4C3533D4203AB4A900747E8C /* CodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3533D3203AB4A900747E8C /* CodeTableViewCell.swift */; };
+		4C3533D6203AB5B200747E8C /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3533D5203AB5B200747E8C /* CodeViewController.swift */; };
+		4C39FE86203AB6A5007051B2 /* NavBarTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C39FE85203AB6A5007051B2 /* NavBarTableTableViewController.swift */; };
+		4C39FE88203ABAAB007051B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C39FE87203ABAAB007051B2 /* Assets.xcassets */; };
+		4C39FE8D203ACD25007051B2 /* CustomTitleCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C39FE8C203ACD25007051B2 /* CustomTitleCodeViewController.swift */; };
+		4C39FE90203ACFA2007051B2 /* NavigationPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C39FE8F203ACFA2007051B2 /* NavigationPromptViewController.swift */; };
+		4C39FE93203AD0A7007051B2 /* LargeTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C39FE92203AD0A7007051B2 /* LargeTitleViewController.swift */; };
+		4C39FEA9203AE711007051B2 /* MultipleNavigationButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C39FEA8203AE711007051B2 /* MultipleNavigationButtonViewController.swift */; };
 		4CB3FA08202C119200593222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3FA07202C119200593222 /* AppDelegate.swift */; };
 		4CB3FA0D202C119200593222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3FA0B202C119200593222 /* Main.storyboard */; };
-		4CB3FA0F202C119200593222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3FA0E202C119200593222 /* Assets.xcassets */; };
 		4CB3FA12202C119200593222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3FA10202C119200593222 /* LaunchScreen.storyboard */; };
 		4CB3FA1D202C119200593222 /* CustomNavigationTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3FA1C202C119200593222 /* CustomNavigationTabBarTests.swift */; };
 		4CB3FA28202C119200593222 /* CustomNavigationTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3FA27202C119200593222 /* CustomNavigationTabBarUITests.swift */; };
@@ -44,20 +50,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C143C65202C4BB500306F7A /* NavBarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarTableViewController.swift; sourceTree = "<group>"; };
 		4C143C6A202C526A00306F7A /* StoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardViewController.swift; sourceTree = "<group>"; };
 		4C143C6C202C52CD00306F7A /* StoryboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardTableViewCell.swift; sourceTree = "<group>"; };
 		4C143C6E202C54DE00306F7A /* CustomStoryboradViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStoryboradViewController.swift; sourceTree = "<group>"; };
 		4C143C70202C575B00306F7A /* StoryboardNavigationBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardNavigationBar.storyboard; sourceTree = "<group>"; };
 		4C143C73202C5D7200306F7A /* MultipleNavBarButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleNavBarButtonViewController.swift; sourceTree = "<group>"; };
 		4C143C79202C663800306F7A /* ProgrammaticallyNavBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProgrammaticallyNavBar.storyboard; sourceTree = "<group>"; };
-		4C143C7B202C67BE00306F7A /* NavBarCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarCodeViewController.swift; sourceTree = "<group>"; };
 		4C143C80202C690600306F7A /* NavigationPromtSBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPromtSBViewController.swift; sourceTree = "<group>"; };
 		4C3533CA203AA70300747E8C /* CustomTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitleViewController.swift; sourceTree = "<group>"; };
+		4C3533D1203AB42C00747E8C /* CustomRightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRightViewController.swift; sourceTree = "<group>"; };
+		4C3533D3203AB4A900747E8C /* CodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTableViewCell.swift; sourceTree = "<group>"; };
+		4C3533D5203AB5B200747E8C /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		4C39FE85203AB6A5007051B2 /* NavBarTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarTableTableViewController.swift; sourceTree = "<group>"; };
+		4C39FE87203ABAAB007051B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C39FE8C203ACD25007051B2 /* CustomTitleCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitleCodeViewController.swift; sourceTree = "<group>"; };
+		4C39FE8F203ACFA2007051B2 /* NavigationPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPromptViewController.swift; sourceTree = "<group>"; };
+		4C39FE92203AD0A7007051B2 /* LargeTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitleViewController.swift; sourceTree = "<group>"; };
+		4C39FEA8203AE711007051B2 /* MultipleNavigationButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleNavigationButtonViewController.swift; sourceTree = "<group>"; };
 		4CB3FA04202C119200593222 /* CustomNavigationTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavigationTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB3FA07202C119200593222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CB3FA0C202C119200593222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4CB3FA0E202C119200593222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CB3FA11202C119200593222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CB3FA13202C119200593222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB3FA18202C119200593222 /* CustomNavigationTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavigationTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +109,7 @@
 		4C143C67202C514C00306F7A /* NavigationBarTypes */ = {
 			isa = PBXGroup;
 			children = (
+				4C39FE85203AB6A5007051B2 /* NavBarTableTableViewController.swift */,
 				4C143C76202C65AE00306F7A /* NavigationBarWithCode */,
 				4C143C75202C659000306F7A /* NavigationBarWithStoryboard */,
 			);
@@ -130,7 +143,13 @@
 		4C143C76202C65AE00306F7A /* NavigationBarWithCode */ = {
 			isa = PBXGroup;
 			children = (
-				4C143C7B202C67BE00306F7A /* NavBarCodeViewController.swift */,
+				4C3533D5203AB5B200747E8C /* CodeViewController.swift */,
+				4C3533D3203AB4A900747E8C /* CodeTableViewCell.swift */,
+				4C39FEA7203AE6DD007051B2 /* AddMultipleNavigationButton */,
+				4C39FE91203AD09E007051B2 /* New Group */,
+				4C39FE8E203ACF8E007051B2 /* NavigationPrompt */,
+				4C39FE89203ACCD0007051B2 /* CustomTitleView */,
+				4C3533CC203AB3B100747E8C /* CustomRightView  */,
 			);
 			path = NavigationBarWithCode;
 			sourceTree = "<group>";
@@ -157,6 +176,46 @@
 				4C143C80202C690600306F7A /* NavigationPromtSBViewController.swift */,
 			);
 			path = "Navigation Promt";
+			sourceTree = "<group>";
+		};
+		4C3533CC203AB3B100747E8C /* CustomRightView  */ = {
+			isa = PBXGroup;
+			children = (
+				4C3533D1203AB42C00747E8C /* CustomRightViewController.swift */,
+			);
+			path = "CustomRightView ";
+			sourceTree = "<group>";
+		};
+		4C39FE89203ACCD0007051B2 /* CustomTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				4C39FE8C203ACD25007051B2 /* CustomTitleCodeViewController.swift */,
+			);
+			path = CustomTitleView;
+			sourceTree = "<group>";
+		};
+		4C39FE8E203ACF8E007051B2 /* NavigationPrompt */ = {
+			isa = PBXGroup;
+			children = (
+				4C39FE8F203ACFA2007051B2 /* NavigationPromptViewController.swift */,
+			);
+			path = NavigationPrompt;
+			sourceTree = "<group>";
+		};
+		4C39FE91203AD09E007051B2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4C39FE92203AD0A7007051B2 /* LargeTitleViewController.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4C39FEA7203AE6DD007051B2 /* AddMultipleNavigationButton */ = {
+			isa = PBXGroup;
+			children = (
+				4C39FEA8203AE711007051B2 /* MultipleNavigationButtonViewController.swift */,
+			);
+			path = AddMultipleNavigationButton;
 			sourceTree = "<group>";
 		};
 		4C7EF7C8203AA20900B120E4 /* NavigationPromt */ = {
@@ -193,10 +252,9 @@
 				4C143C72202C598C00306F7A /* StoryBoard */,
 				4C143C67202C514C00306F7A /* NavigationBarTypes */,
 				4CB3FA07202C119200593222 /* AppDelegate.swift */,
-				4CB3FA0E202C119200593222 /* Assets.xcassets */,
+				4C39FE87203ABAAB007051B2 /* Assets.xcassets */,
 				4CB3FA10202C119200593222 /* LaunchScreen.storyboard */,
 				4CB3FA13202C119200593222 /* Info.plist */,
-				4C143C65202C4BB500306F7A /* NavBarTableViewController.swift */,
 			);
 			path = CustomNavigationTabBar;
 			sourceTree = "<group>";
@@ -336,9 +394,9 @@
 			files = (
 				4C143C7A202C663800306F7A /* ProgrammaticallyNavBar.storyboard in Resources */,
 				4CB3FA12202C119200593222 /* LaunchScreen.storyboard in Resources */,
-				4CB3FA0F202C119200593222 /* Assets.xcassets in Resources */,
 				4CB3FA0D202C119200593222 /* Main.storyboard in Resources */,
 				4C143C71202C575B00306F7A /* StoryboardNavigationBar.storyboard in Resources */,
+				4C39FE88203ABAAB007051B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,15 +422,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C143C6F202C54DE00306F7A /* CustomStoryboradViewController.swift in Sources */,
-				4C143C7C202C67BE00306F7A /* NavBarCodeViewController.swift in Sources */,
 				4C143C6D202C52CD00306F7A /* StoryboardTableViewCell.swift in Sources */,
+				4C3533D2203AB42C00747E8C /* CustomRightViewController.swift in Sources */,
 				4CB3FA08202C119200593222 /* AppDelegate.swift in Sources */,
 				4C143C6B202C526A00306F7A /* StoryboardViewController.swift in Sources */,
+				4C3533D4203AB4A900747E8C /* CodeTableViewCell.swift in Sources */,
 				4C143C74202C5D7200306F7A /* MultipleNavBarButtonViewController.swift in Sources */,
 				4C143C81202C690600306F7A /* NavigationPromtSBViewController.swift in Sources */,
+				4C39FE93203AD0A7007051B2 /* LargeTitleViewController.swift in Sources */,
+				4C39FE90203ACFA2007051B2 /* NavigationPromptViewController.swift in Sources */,
 				4CC3FFC2203465F30075D287 /* CustomNavButtonStoryBoard.swift in Sources */,
-				4C143C66202C4BB500306F7A /* NavBarTableViewController.swift in Sources */,
+				4C3533D6203AB5B200747E8C /* CodeViewController.swift in Sources */,
+				4C39FE86203AB6A5007051B2 /* NavBarTableTableViewController.swift in Sources */,
 				4C3533CB203AA70300747E8C /* CustomTitleViewController.swift in Sources */,
+				4C39FEA9203AE711007051B2 /* MultipleNavigationButtonViewController.swift in Sources */,
+				4C39FE8D203ACD25007051B2 /* CustomTitleCodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

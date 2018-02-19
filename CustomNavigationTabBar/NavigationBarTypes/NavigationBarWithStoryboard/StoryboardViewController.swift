@@ -24,7 +24,7 @@ class StoryboardViewController: UIViewController {
 
 }
 
-//MARK: -
+//MARK: - UITableViewDataSource Methods
 extension StoryboardViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
@@ -38,6 +38,7 @@ extension StoryboardViewController: UITableViewDataSource {
 
 }
 
+//MARK: - UITableViewDelegate Methods
 extension StoryboardViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
