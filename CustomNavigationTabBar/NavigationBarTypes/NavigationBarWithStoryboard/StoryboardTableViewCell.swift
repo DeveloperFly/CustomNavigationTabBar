@@ -26,19 +26,19 @@ class StoryboardTableViewCell: UITableViewCell {
     func configureCell(indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
-            self.labelTitle.text = "Assign navItem And Bar Button"
-            self.labelDecription.text = "Directly assign Navigation bar button and title by storyboard, single item button"
+            self.labelTitle.text = "NavItem And Bar Button"
+            self.labelDecription.text = "Aissign navigation bar button by code"
         case 1:
-            self.labelTitle.text = "Assign Multiple bar Button"
-            self.labelDecription.text = "Directly assign Multiple Navigation bar button and title by storyboard, single item button"
+            self.labelTitle.text = "Custom navigation view"
+            self.labelDecription.text = "Assign custom navigation bar by code"
         case 2:
-            self.labelTitle.text = "Assign Custom Multiple bar Button"
-            self.labelDecription.text = "Directly assign Multiple Navigation bar button Over UIView."
+            self.labelTitle.text = "Navigation prompt"
+            self.labelDecription.text = "NavigationBar promt by code"
         case 3:
-            self.labelTitle.text = "Assign Navigation prompt"
-            self.labelDecription.text = "Directly assign Navigation prompt by storyboard"
+            self.labelTitle.text = "Larg navigation title"
+            self.labelDecription.text = "Enable larg navigation title in iOS 11"
         case 4:
-            self.labelTitle.text = "Assign Custom title view "
+            self.labelTitle.text = "Multiple navigation "
             self.labelDecription.text = "Directly assign Custom title view by storyboard"
             
         default:
